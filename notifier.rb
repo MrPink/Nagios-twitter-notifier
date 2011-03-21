@@ -1,7 +1,6 @@
 require 'rubygems'
 gem     'twitter'
 require 'twitter'
-require 'optparse'
 
 Twitter.configure do |config|
   config.consumer_key = 'CONSUMER_KEY' 
